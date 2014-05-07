@@ -108,7 +108,7 @@ Zip Location API wrapper
         var response;
 
         callback = callback || function (ev) {
-            response = this.response;
+            response = this.jsonResponse;
         };
 
         var zipurl = zipUrlTmpl.expand({"zip": zip});
